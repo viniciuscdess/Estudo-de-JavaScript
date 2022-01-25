@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Functions 3</title>
+</head>
+<body>
+	<script>
+		const sum = function(number1, number2){
+			total = number1 + number2;
+			return total;
+		}
+		//quando a função nao tem um return ela é retorna undefined
+
+		//definir se total como uma var, let ou const
+		//se nao definir ele vira uma variavel global pro seu codigo todo(dps q a função for exec)
+
+		let number1 = 34
+		let number2 = 25
+
+		sum(number1, number2);
+
+		console.log(`o numero 1 é ${number1}`);
+
+		console.log(`o numero 2 é ${number2}`);
+
+		console.log(`a soma dos valores é ${sum(number1, number2)}`);
+
+	</script>
+</body>
+</html>

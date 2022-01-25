@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Function Construct</title>
+</head>
+<body>
+	<script>
+		function Person(name) {
+			this.name = name;
+			this.walk = function(){
+				return this.name + "andando";
+			}
+		}
+
+		const vinicius = new Person('vinicius');
+		const joao = new Person('joao');
+		console.log(vinicius.walk());
+		console.log(joao.walk());
+	</script>
+</body>
+</html>

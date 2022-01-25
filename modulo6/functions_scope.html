@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Function Scope</title>
+</head>
+<body>
+	<script>
+		let subject = 'create video';
+
+		function createThink(subject) {
+			subject = 'study';
+			return subject
+		}
+
+		console.log(subject);
+
+		console.log(createThink(subject));
+	</script>
+</body>
+</html>

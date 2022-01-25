@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CallBack Functions</title>
+</head>
+<body>
+	<script>
+		function sayMyName(name)
+		{
+			console.log('antes de executar o callback');
+			name();
+			console.log('depois de executar o callback');
+		}
+
+		sayMyName(
+				()=> {
+					console.log('estou em uma callback');
+				}
+		)
+		//callback é uma função que está servindo de parametro para outra função
+		//chamar uma função dentro de uma função
+	</script>
+</body>
+</html>

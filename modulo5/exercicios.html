@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercicios</title>
+</head>
+<body>
+	<script>
+		//criar variavel
+		let wheight;
+		//mostrar o tipo de dado
+		console.log(typeof wheight);
+
+		//declarar variavel e declarar valor
+		var name = "Vinicius";
+		var age = 17;
+		var stars = 15.5;
+		var isSubscribed = true;
+
+		//variaveis dentro de um objeto nao separados por virgula
+		//
+		let student = {
+			name: "Vinicius",
+			age: 17,
+			weight: 15.5,
+			isSubscribed: true,
+		};
+		// R: object;
+		console.log(`${student.name} tem de idade ${student.age} e pesa ${wheight}`);
+
+		//atribuindo um array a uma variavel
+		var students = [];
+		students = [
+			student
+		];
+		console.log(students);
+		//mostrando a posição 0
+		console.log(students[0]);
+
+		const jhon = {
+			name: 'jhon',
+			age: 18,
+			weight: 56.12,
+			isSubscribed:true,
+		}
+
+		students[1] = jhon;
+		console.log(students);
+	</script>
+</body>
+</html>

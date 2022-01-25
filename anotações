@@ -45,3 +45,11 @@ Tipos de Dados
 			- Structural Primitive
 				- NULL
 					obs: ele existe porem nao tem nada dentro;
+
+			Variaveis
+				Cadeia de caractereces Unicode
+				Nomes que fazem sentido
+				camelCase
+				snake_case
+				Escrever em ingles
+

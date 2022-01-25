@@ -13,3 +13,35 @@ Core da Linguagem(JavaScript) - Linguagem de programação
 Sintax da Linguagem
 	Escrever a linguagem da maneira certa;
 	Boa comunicação necessita de boa sintaxe;
+
+
+Tipos de Dados
+	- Gramatica são elementos da linguagem e combinações
+		Gramatica tem haver com a arte de escrever e falar corretamente
+
+	- Vocabulário é o conjunto de termos e expressões
+
+	ECMAScript standard -> Orgão que padroniza o JavaScript
+		9 tipos de dados:
+			- Primitive / Primite value
+				- string
+				- number
+				- boolean
+				- undefined
+				- symbol
+				- bigInt
+					obs: primitivos não são objetos e o valor dele é imutavel;
+
+			- Structural
+				- Array
+				- Map
+				- Set
+				- Date
+				- ...
+				* Function()
+					obs: Agrupamentos de objetos -> objeto recebe atributos e metodos;
+						- Todos esses derivam do objeto
+
+			- Structural Primitive
+				- NULL
+					obs: ele existe porem nao tem nada dentro;

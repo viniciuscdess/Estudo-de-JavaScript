@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manipulando strings e arrays</title>
+</head>
+<body>
+	<script>
+		let phrase = "Eu quero viver o amor!";
+		let mArray = phrase.split(" ");//split separa a frase em um array, por determinado valor, com cada palavra em um lugar do array
+		console.log(mArray);
+
+		let fraseComUnderscore = mArray.join("_");//junta um array transformando em string -> separando pelo valor que foi passado
+		console.log(fraseComUnderscore);
+		console.log(fraseComUnderscore.toLowerCase());//deixa tudo em letra minuscula
+
+	</script>
+</body>
+</html>

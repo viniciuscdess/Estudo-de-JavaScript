@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manipulando Arrays</title>
+</head>
+<body>
+	<script>
+ 		let text = ['html','css','js'];
+
+ 		//adicionar 1 item no fim da lista(array)
+ 		console.log(text.push("php")) //metodo push ja sabe como colocar o elemento no final
+
+ 		//adicionar 1 item no começo da lista(Array)
+ 		console.log(text.unshift("sql"));
+
+ 		//remove o ultimo item
+ 		console.log(text.pop());
+
+ 		//remover começo
+ 		console.log(text.shift());
+
+ 		//pegar somente alguns elementos da lista(array);
+ 		console.log(text.slice(1,3));//primeiro "parametro" começa a contar do zero e o segundo conta normal quantos itens tem
+
+ 		//remover 1 ou mais itens da posição de um array
+ 		console.log(text.splice(1, 1));
+ 		//primeiro "parametro" começa a contar do zero e o segundo quantos voce quer tirar(por quantidade nao posição)
+
+ 		//encontrar a posição de um elemento no aray
+ 		let index = text.indexOf('css');
+ 		text.splice(index,1);
+
+
+
+
+	</script>
+</body>
+</html>

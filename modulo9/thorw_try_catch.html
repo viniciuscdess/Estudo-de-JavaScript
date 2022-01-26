@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Throw, Try/Catch</title>
+</head>
+<body>
+	<script>
+		//throw -> lançar
+		//try -> tentar
+		//catch -> pegar
+		//try catch usado para capturar erros
+		function sayMyName(name = '')
+		{
+			if(name === '')
+			{
+				throw 'Nome é obrigatorio';
+			}
+			console.log('depois do erro');
+		}
+
+		try {
+			sayMyName();
+		} catch(e) {
+			console.log(e);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Switch</title>
+</head>
+<body>
+	<script>
+		//se nao tiver um break ele continua a ler as expressoes
+		function calculadora(numero1, operador, numero2)
+		{
+			let result = 0;
+			switch (operador)
+			{
+				case '+':
+					result = numero1 + numero2
+					break;
+				case '*':
+					result = numero1 * numero2
+					break;
+				default:
+					console.log('nao calculado');
+					break;
+			}
+			return result;
+		}
+
+		console.log(calculadora(4,'+',12));
+
+
+
+	</script>
+</body>
+</html>

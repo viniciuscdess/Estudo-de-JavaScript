@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Operadores uniarios</title>
+</head>
+<body>
+	<script>
+ 		console.log(typeof "vinicius");//retorna string
+
+ 		const pessoa = {
+ 			name:"vinicius",
+ 			age:17,
+ 		}
+		delete pessoa.age;//delete procura uma propriedade dentro do objeto e deleta ela(se ela existir claro)
+ 		console.log(pessoa);
+
+ 		const programador = new String('Vinicius');
+ 		console.log(programador);//objeto
+
+ 		programador.sobrenome = "Carvalho";//propriedade
+ 		console.log(programador);
+
+ 		console.log(programador.sobrenome);
+	</script>
+</body>
+</html>

@@ -21,7 +21,7 @@ Tipos de Dados
 
 	- Vocabulário é o conjunto de termos e expressões
 
-	ECMAScript standard -> Orgão que padroniza o JavaScript
+ECMAScript standard -> Orgão que padroniza o JavaScript
 		9 tipos de dados:
 			- Primitive / Primite value
 				- string
@@ -55,5 +55,14 @@ Tipos de Dados
 
 			Funções
 				Quando uma função é atrelada a um objeto -> chama-se metodo
+
+			Expressões
+				Expressão é qualquer linha de codigo que resolve alguma coisa;
+				Toda expressão do javascript pode terminar ou não com ";";
+
+			Operadores
+				- uniario -> que recebe somente um operador(ex: typeof);
+				- binario -> precisa de dois valores e ter um operador no meio
+				- ternario -> é com 3 valores -> tipo um if
 
 

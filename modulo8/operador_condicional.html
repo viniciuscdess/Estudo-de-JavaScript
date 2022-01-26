@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Operador Condicional</title>
+</head>
+<body>
+	<script>
+		//ou vou ter um valor ou ter outro -> condição
+
+		let pao = true;
+		let queijo = true;
+
+		const cafeManha = pao && queijo ? "café top" : "café ruim";
+		console.log(cafeManha);//ta verificando se os dois sao verdadeiros(se existem);
+		//se os dois "existirem" ele vai retornar a primeira "condição(resposta)" se nao retorna a segunda
+
+		let idade = 18;
+		let dirigir = idade >= 18 ? "Pode dirigir!" : "Não pode dirigir!";
+		console.log(dirigir);
+
+		//no operador ternario -> pode retornar função, array etc...
+	</script>
+</body>
+</html>

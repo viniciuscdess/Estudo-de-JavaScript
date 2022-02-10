@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>For in</title>
+</head>
+<body>
+	<script>
+		// cria um loop em cima de um objeto pegando as propriedades do objeto
+		let pessoa = {
+			nome:'vinicius', //prorpriedade = 'nome', valor = 'vinicius'
+			idade:17,
+			peso:67
+		};
+
+		for(let propri in pessoa){
+			// no objeto pega a propriedade e atribua let
+			console.log(propri);
+			console.log(pessoa[propri]); //pegando os valores
+		}
+
+	</script>
+</body>
+</html>

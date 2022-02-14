@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Exercicio 1</title>
+	</head>
+	<body>
+		<script>
+			/*
+				Crie um algoritmo que transforme as notas do sistema
+				numérico para sistema de notas em caracteres tipo A B C
+				* de 90 para cima -   A
+				* entre 80 - 89   -   B
+				* entre 70 - 79   -   C
+				* entre 60 - 69   -   D
+				* menor que 60    -   F
+			*/
+
+
+			function verNotas(notas) {
+				var notasA = notas >= 90 && notas <= 100;
+				var notasB = notas >= 80 && notas <= 89;
+				var notasC = notas >= 70 && notas <= 79;
+				var notasD = notas >= 60 && notas <= 69;
+				var notasF = notas < 60;
+				var notaFinal;
+				if(notasA)
+				{
+					notaFinal = "A";
+				}else if(notasB)
+				{
+					notaFinal = "B";
+				}else if(notasC)
+				{
+					notaFinal = "C";
+				}else if(notasD)
+				{
+					notaFinal = "D";
+				}else if(notasF)
+				{
+					notaFinal = "F";
+				}else{
+					notaFinal = "Nota invalida";
+				}
+				return notaFinal;
+			}
+
+			console.log(verNotas(90));
+			console.log(verNotas(65));
+			console.log(verNotas(101));
+
+		</script>
+	</body>
+</html>

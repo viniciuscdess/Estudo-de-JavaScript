@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercicio 3</title>
+</head>
+<body>
+	<script>
+			// Crie uma função que receba uma string em celsius ou fahrenheit
+			// e faça a transformação de uma unidade para outra
+			//     C = (F - 32) * 5/9
+			//     F = C * 9/5 + 32
+			function transformaGraus(graus)
+			{
+				const celciusExiste = graus.toUpperCase().includes('C');
+				const fahrenheitExiste = graus.toUpperCase().includes('F');
+
+				// fluxo de erro
+				if(!celciusExiste && !fahrenheitExiste)	{
+					throw new Error("Grau não indentificado!");
+				}
+
+				//fluxo ideal , F para C
+				let mudarGraus = Number(graus.toUpperCase().replace("F", ""));
+				let formula = (fahrenheit) => (fahrenheit - 32) * 5/9;
+				let grausSign = 'C';
+
+				// Fluxo alternativo ->
+				if(celciusExiste)
+				{
+					mudarGraus = Number(graus.toUpperCase().replace("C", ""));
+					formula = celcius => celcius * 9/5 + 32;
+					grausSign = 'F';
+				}
+
+				return formula(mudarGraus) + grausSign;
+			}
+
+			try {
+				console.log(transformaGraus('10C'));
+				console.log(transformaGraus('50F'));
+				transformaGraus('50Z');
+			} catch (error){
+				//pega só a mensagem
+				//se nao for .message pega a mensagem de erro inteira(até a linha do erro)
+				console.log(error.message);
+			}
+	</script>
+</body>
+</html>

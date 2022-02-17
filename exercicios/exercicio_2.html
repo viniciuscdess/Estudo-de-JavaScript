@@ -6,9 +6,32 @@
 	<title>Exercicio 2</title>
 </head>
 <body>
-<script>
+	<script>
+		var gastos = {
+			receitas:[123,345],
+			despesas:[123,621]
+		}
 
+		function somar(array)
+		{
+			let total = 0;
 
-</script>
+			for(let value of array) {
+				total += value
+			}
+			return total;
+		}
+
+		function calcular()
+		{
+			const calcula1 = somar(gastos.receitas);
+			const calcula2 = somar(gastos.despesas);
+
+			const total = calcula1 - calcula2;
+
+			console.log(total);
+		}
+		calcular();
+	</script>
 </body>
 </html>

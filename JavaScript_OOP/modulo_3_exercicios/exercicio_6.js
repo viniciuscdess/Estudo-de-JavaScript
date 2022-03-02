@@ -2,7 +2,7 @@ function comparar(obj1, obj2) {
 	if(obj1 instanceof obj2) {
 		console.log("O objeto " + obj1.nome + " é uma instancia de " + obj2.name);
 	} else {
-		console.log("O objeto " + obj1.nome + " não é uma instancia de " + obj2.nome);
+		console.log("O objeto " + obj1.nome + " não é uma instancia de " + obj2.name);
 	}
 }
 
@@ -36,4 +36,6 @@ let rocklee = new Inimigo("rocklee");
 let naruto = new Ninja("naruto", 5);
 
 comparar(naruto, Ninja);
+comparar(rocklee, Ninja);
+comparar(naruto, Inimigo);
 

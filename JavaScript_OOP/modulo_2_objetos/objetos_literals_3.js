@@ -29,3 +29,5 @@ let aviao = {
 };
 
 console.log(carro.tipo_de_carro);
+console.log(barco.tipo_de_barco);
+console.log(aviao.tipo_de_aviao);

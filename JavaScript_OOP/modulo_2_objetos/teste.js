@@ -1,5 +1,4 @@
-function aluno(idade,nome,classe)
-{
+function aluno(idade,nome,classe) {
 	return {
 		idadeAluno: idade,
 		nomeAluno: nome,
@@ -10,5 +9,5 @@ function aluno(idade,nome,classe)
 	}
 }
 
-let aluno = aluno(18,"Vinicius",3);
-aluno.detalhesAluno();
+let alunoFundamental = aluno(18,"Vinicius",3);
+alunoFundamental.detalhesAluno();

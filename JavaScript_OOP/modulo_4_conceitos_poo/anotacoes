@@ -1,0 +1,18 @@
+Conceitos de Programação Orientada a Objetos:
+
+- Objetos: representação de uma classe. Onde a classe é seu esqueleto onde vem suas principais propiedades e métodos.
+O que é bem especifico seria criado no objeto; O que é comum entre os objetos, ficaria na propria classe e seria herdado.
+Os objetos tem propriedades que serão as proprias caracteristicas deles.
+O objeto origina da classe.
+
+- Classes: é o molde do objeto. Normalmente ela possui as propriedades e métodos que os objetos vão ultilizar.
+Codigo reaproveitavel.
+
+- Encapsulação: criar um objeto e uma forma de encapsular dados nele para usar depois. Proteger de ações externas.
+Ter propriedades/metodos privadas/protegidas.
+
+- Agregação: organização de codigo. "Explodir um objeto/classe gigante" em objetos menores, para que cada um tenha um papel especifico no codigo.
+
+- Herança: quando um objeto ou classe herda as propriedades e métodos do pai. Mesmo herdando o objeto/classe ainda possui suas propriedades
+e metodos proprios.
+

@@ -1,0 +1,8 @@
+Conceitos de built in objects
+
+Os objetos referenciados a JavaScript são chamados de built in objects.
+São os objetos que nascem quando qualquer programa em JavaScript é executado.
+Temos livre acesso a eles, suas propriedades e seus métodos.
+No JavaScript isso é mais conhecido como ProtoType, todo objeto tem um pai.
+obs: um aspecto da herança.
+

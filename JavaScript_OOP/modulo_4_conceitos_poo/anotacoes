@@ -16,3 +16,5 @@ Ter propriedades/metodos privadas/protegidas.
 - Herança: quando um objeto ou classe herda as propriedades e métodos do pai. Mesmo herdando o objeto/classe ainda possui suas propriedades
 e metodos proprios.
 
+- Polimorfismo: fazer métodos da classe pai se adptar as necessidades do objeto/classe filha. Porem o metodo da classe pai nao é afetado.
+A alteração/adptação do metodo é oque caracteriza o polimorfismo.

@@ -6,7 +6,7 @@ function comparar(obj1, obj2) {
 	}
 }
 
-//objetos
+// objetos
 function Ninja(nome,quantidade) {
 	this.nome = nome;
 	this.quantidade = quantidade;

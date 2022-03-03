@@ -10,3 +10,4 @@ console.log(obj.string);
 console.log(obj.number);
 console.log(obj.boolean);
 console.log(obj.arr);
+console.log(obj.arr);

@@ -1,5 +1,6 @@
 Anotações:
 
-- Oque é orientação a Objetos:
+- Oque é orientação a Objetos: um paradigma de programação;
+Paradigma é um metodo de programar. Tudo é objeto. Tudo tem um pai, sendo o "pai principal" o ProtoType;
 
 - DOM - é alteração do HTML via JavaScript

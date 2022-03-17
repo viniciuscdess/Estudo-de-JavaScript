@@ -12,4 +12,6 @@ let fusca = new Carro("VW", 10000);
 
 console.log(fusca.calota);
 
+// delete fusca.calota;
+
 console.log(fusca.calota);

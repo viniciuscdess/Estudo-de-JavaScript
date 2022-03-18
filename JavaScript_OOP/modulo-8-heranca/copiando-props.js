@@ -1,7 +1,12 @@
 function extend(Filho, Pai) {
-	let F = function() {};
-	F.prototype = Pai.prototype;
-	Filho.prototype = new F();
+	let paiProto = Pai.prototype;
+	let filhoProto = Filho.prototype;
+
+	for(let i in paiProto) {
+		filhoProto[i] = paiProto[i];
+	}
+	//filho tem acesso ao obj do pai
+	filhoProto.uber = paiProto;
 }
 
 function Veiculo() {}

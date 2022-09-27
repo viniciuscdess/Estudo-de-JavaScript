@@ -5,7 +5,7 @@
 - Pequenos projetos
 - Aulas de cursos
 - Recomendações
-<img src="js.png" alt="Logo JS"/>
+<img src="js.png" alt="Logo JS" width="300px" height="300px"/>
 
 > Criador:  eo.vinci
 

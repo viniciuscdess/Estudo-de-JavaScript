@@ -4,5 +4,4 @@
 - Anotações
 - Projetos pequenos
 - Recomendações
-<img src="js.png" alt="Logo JS"/>
 > Criador:  eo.vinci
